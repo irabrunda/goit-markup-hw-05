@@ -261,6 +261,7 @@ a {
 }
 .work-images li {
     list-style: none;
+    position: relative;
     /* max-height: 294px; */
 }
 .work-images .item {
@@ -268,6 +269,30 @@ a {
 }
 .work-images .item + .item {
     margin-left: 30px;
+}
+.work-descript {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom: 0;
+    width: 370px;
+    height: 70px;
+
+    background: var(--secondary-background-color);
+    color: var(--light-color);
+    opacity: 80%;
+}
+.work-descript p {
+    display: block;
+    margin: 0;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
 /* Чем мы занимаемся конец */
 

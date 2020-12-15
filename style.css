@@ -289,7 +289,6 @@ a {
 .work-images li {
     list-style: none;
     position: relative;
-    /* max-height: 294px; */
 }
 .work-images .item {
     display: block;
